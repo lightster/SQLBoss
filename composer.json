@@ -1,14 +1,12 @@
 {
 	"autoload": {
 		"psr-0": {
-			"SQLBoss": "Lib/"
+			"SQLBoss": "src/"
 		}
 	},
-	"config": {
-		"vendor-dir": "Vendor"
-	},
 	"require": {
-		"jdorn/sql-formatter": "dev-master",
-		"doctrine/dbal":       "2.3.3"
+		"jdorn/sql-formatter": "~1.2",
+		"silex/silex": "~1.1",
+		"filp/whoops": "1.*"
 	}
 }
